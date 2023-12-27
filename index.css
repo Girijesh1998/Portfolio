@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/***** header section *****/
+#header{
+    background: url(image/my.png);
+    opacity: 0.9;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+#header .navbar {
+    background-color: black;
+    position:fixed;
+    top: 0;
+    width: 100%;
+}l
+.navbar-brand{
+    margin-left: 70px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.navbar-nav .nav-link{
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.name-contant{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 75px;
+}
+.name-contant .text{
+    position: relative;
+    color: #4070f4;
+    font-size: 30px;
+    font-weight: 600;
+}
+.name-contant .text.first-text{
+    color:#fff;
+}
+.nav-link:hover{
+    background-color: rgb(9, 29, 211);
+    color: black;
+}
+
+.name-contant .sec-text::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color:black;
+    border-left: 2px solid #fff ;
+    animation: animate 4s steps(12) infinite;
+}
+@keyframes animate{
+    40%,60%{
+        left: calc( 100% + 4px);
+
+    }
+    100%{
+        left:0%;
+    }
+}
+/***** header section end*****/
+
+/***** About section start*****/
+#about {
+    overflow: hidden;
+    margin-top:60px;
+}
+
+
+.about-div{
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+}
+.about-logo{
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+    margin-left: 10;
+}
+.about-logo-contant{
+    word-wrap: break-word;
+    overflow: hidden;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.about-profile{
+    margin-top: 9px;
+}
+.about-email{
+    margin-top: 9px;
+}
+
+.about-contact{
+    margin-top: 9px;
+}
+
+.skill-title{
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.skill-bar{
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+}
+
+
+.about-title{
+    overflow: hidden;
+    padding: 20px;
+}
+
+.para1{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.para2{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.para3{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+/***** About section end*****/
+
+
+/***** Services section start*****/
+.card-services{
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+
+
+.card-body i{
+    height: 76px;
+}
+.fa-regular{
+    font-size: 35px;
+    border: 2px solid blue;
+    padding: 20px;
+    border-radius: 100%;
+}
+/***** Services section end*****/
+
+/***** contact section start*****/
+.contact-link-logo{
+    margin-left: 20px;
+    width: 40px;
+}
+.input-group-contact{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+/***** contact section start*****/
+
+/***** MyWork section start*****/
+.card-buttom{
+    border-top: 1px solid rgb(179, 176, 176);
+}
+.profile-logo{
+    width: 30px;
+    border-radius: 50%;
+}
+/***** MyWork section end*****/
+
+/***** Footer section Start*****/
+#footer{
+    background-color: #4070f4;
+}
+/***** Footer section end*****/
+
